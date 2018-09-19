@@ -11,7 +11,7 @@ public class AgeGame {
 		System.out.println("Please enter your age to be insulted");
 		usersAge = input.nextInt();
 		
-		if(usersAge >= 12)
+		if(usersAge <= 12)
 		{
 			result = "You are a child! Go away!";
 		}
@@ -29,7 +29,7 @@ public class AgeGame {
 		}
 		else if(usersAge >= 31 && usersAge <= 40)
 		{
-			result= "";
+			result= "I don't know";
 		}
 		else if(usersAge >= 41 && usersAge <= 50)
 		{
@@ -39,7 +39,7 @@ public class AgeGame {
 		{
 			result= "You are getting very old now";
 		}
-		else if(usersAge >=61 && usersAge <= death)
+		else if(usersAge >=61 && usersAge <= 120)
 		{
 			result= "Still alive?";
 		}
@@ -52,7 +52,7 @@ public class AgeGame {
 		//31-40
 		//41-50
 		//51-60
-		//61-death
+		//61-120
 		
 		
 
