@@ -59,12 +59,10 @@ public class AscendingAndDescending {
 			
 		}
 		
-		
-			
-
-		
 		System.out.println(low + " " + medium + " " + high);
+
 		}
+
 	}
 
 }

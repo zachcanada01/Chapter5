@@ -10,7 +10,7 @@ public class IdScanner {
 		String result;
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Scan the bar coed to find an person");
+		System.out.print("Scan the bar code to find an person");
 		idNumber = input.nextInt();
 		
 		switch(idNumber)
