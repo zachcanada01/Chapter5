@@ -6,22 +6,31 @@ public class Pay {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		double payRate;
+		double hoursWorked;
+		int insuranceOption;
 		int skillLevel;
-		int hoursWorked;
-		int insuranceChoice;
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Please enter your skill level.");
+		System.out.println("What is your skill level?");
 		skillLevel = input.nextInt();
-		System.out.println("Please enter the amount of hours you have worked.");
+		System.out.println("How many hours did you work?");
 		hoursWorked = input.nextInt();
-		System.out.println("If you skill level 2 or above would you like any of the following insurance options \n1 Medical insurance\n2 Dental insurance\n3 Long-term diability insurance\n4 all of the above");
-		insuranceChoice = input.nextInt();
 		
+		if(skillLevel == 1)
+		{
+			insuranceOption = 0;
+			payRate = 17;
+			displayTotalPay(hoursWorked, insuranceOption, payRate);
+		}
 		
-		
-		
+	
 	}
+	public static void displayTotalPay(double hoursWorked, int insuranceOption, double payRate)
+	{
+		System.out.println();
+	}
+	public static void displayInformation
 
 }
